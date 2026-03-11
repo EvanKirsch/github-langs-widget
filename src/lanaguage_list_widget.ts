@@ -24,7 +24,7 @@ export class LanguageListWidget implements WidgetInterface<void> {
   private buildLanguageWidget(myLanguages : Map<String, number>) : HTMLElement {
     const sortedLanguages = new Map([...myLanguages.entries()].sort((a, b) => b[1] - a[1])); // sort high to low
     let totalSize = 0; 
-    myLanguages.values().forEach(elt => totalSize = totalSize + elt);
+    myLanguages.forEach(value => totalSize = totalSize + value);
     let widget = document.createElement("table");
     widget.classList.add("table")
     let body = document.createElement("tbody");
