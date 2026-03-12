@@ -1,5 +1,5 @@
 {
-  "name": "@evan-kirsch/github-langs-widget",
+  "name": "@evankirsch/github-langs-widget",
   "version": "0.0.1",
   "description": "Widget that provides language percents as percent of all lanugages in a given users public github projects",
   "scripts": {
