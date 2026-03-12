@@ -1,4 +1,7 @@
 {
+  "name": "@evan-kirsch/github-langs-widget",
+  "version": "1.0.0",
+  "description": "Widget that provides language percents as percent of all lanugages in a given users public github projects",
   "scripts": {
     "build": "tsc --build",
     "init": "tsc --init",
