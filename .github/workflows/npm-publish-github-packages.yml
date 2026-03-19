@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm run publish:snapshot
+      - run: npm version prerelease --preid=snapshot
+      - run: npm publish --tag next
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

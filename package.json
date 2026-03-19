@@ -7,8 +7,7 @@
     "build": "tsc --build",
     "init": "tsc --init",
     "test": ":",
-    "clean": "tsc --build --clean",
-    "publish:snapshot": "npm version prerelease --preid=snapshot && npm publish --tag next"
+    "clean": "tsc --build --clean"
   },
   "dependencies": {
     "octokit": "^5.0.5",
