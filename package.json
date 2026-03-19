@@ -1,13 +1,14 @@
 {
   "name": "@evankirsch/github-langs-widget",
-  "version": "0.0.3",
+  "version": "0.0.3-snapshot.0",
   "description": "Widget that provides language percents as percent of all languages in a given users public github projects",
   "repository": "github:evankirsch/github-langs-widget",
   "scripts": {
     "build": "tsc --build",
     "init": "tsc --init",
     "test": ":",
-    "clean": "tsc --build --clean"
+    "clean": "tsc --build --clean",
+    "publish:snapshot" : "npm version prerelease --preid=snapshot && npm publish --tag next"
   },
   "dependencies": {
     "octokit": "^5.0.5",
