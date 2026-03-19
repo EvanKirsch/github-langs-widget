@@ -1,6 +1,6 @@
 .devcontainer/
 .github/
 node_modules/
-dist/
+src/
 tsconfig.tsbuildinfo
 /**/*.tgz
