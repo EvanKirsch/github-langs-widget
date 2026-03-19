@@ -8,13 +8,10 @@
     "init": "tsc --init",
     "test": ":",
     "clean": "tsc --build --clean",
-    "publish:snapshot" : "npm version prerelease --preid=snapshot && npm publish --tag next"
+    "publish:snapshot": "npm version prerelease --preid=snapshot && npm publish --tag next"
   },
   "dependencies": {
-    "octokit": "^5.0.5"
-  },
-  "devDependencies": {
-    "tsc": "^2.0.4",
+    "octokit": "^5.0.5",
     "typescript": "^5.9.3"
   }
 }
