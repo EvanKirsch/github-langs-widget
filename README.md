@@ -1,6 +1,6 @@
 # github-langs-widget
 
-## usage
+## Usage
 ```ts
 import { LanguageListWidget } from "@evankirsch/github-langs-widget"
 import { WidgetInterface } from "@evankirsch/widget_interface"
