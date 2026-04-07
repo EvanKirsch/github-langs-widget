@@ -1,5 +1,5 @@
 # github-langs-widget
-WIP
+WIP language widget
 
 ## Usage
 ```ts
