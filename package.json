@@ -1,6 +1,6 @@
 {
   "name": "@evankirsch/github-langs-widget",
-  "version": "0.0.0-snapshot",
+  "version": "0.0.0-snapshot.0",
   "description": "Widget that provides language percents as percent of all languages in a given users public github projects",
   "repository": "github:evankirsch/github-langs-widget",
   "scripts": {
